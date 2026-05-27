@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Página</title>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+
+      .contenedor {
+        width: 400px;
+        margin: 80px auto;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+
+      button {
+        background: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background: #0056b3;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="contenedor">
+      <h1>Hola Mundo</h1>
+      <p>Este es un HTML sencillo.</p>
+
+      <button onclick="mostrarMensaje()">Haz clic</button>
+    </div>
+
+    <script>
+      function mostrarMensaje() {
+        alert("¡Hola William!");
+      }
+    </script>
+  </body>
+</html>
